@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Advent of Code 2024",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelFriHer/Advent-of-Code.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Samuel Frías",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamuelFriHer/Advent-of-Code/issues"
+  },
+  "homepage": "https://github.com/SamuelFriHer/Advent-of-Code#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}
