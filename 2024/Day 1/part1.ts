@@ -5,7 +5,7 @@
  * @author Samuel Frías Hernández
  */
 
-{
+function part1(): void {
   const rl = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -36,3 +36,5 @@
     process.exit(0);
   });
 }
+
+part1();
