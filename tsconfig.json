@@ -3,7 +3,8 @@
     "module": "CommonJS",
     "target": "ES6",
     "outDir": "dist",
-    "strict": true
+    "strict": true,
+    "isolatedModules": true
   },
   "exclude": ["dist", "node_modules"]
 }
