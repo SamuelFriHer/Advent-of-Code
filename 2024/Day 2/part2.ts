@@ -7,7 +7,7 @@
 
 import { isSafe } from './tools';
 
-{
+function part2(): void {
   const readLine = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -26,18 +26,16 @@ import { isSafe } from './tools';
   readLine.on('close', () => {
     let count = 0;
     for (const report of reports) {
-      let safe = false;
       for (let i = 0; i < report.length; i++) {
         if (isSafe(report.slice(0, i).concat(report.slice(i + 1)))) {
-          safe = true;
+          count++;
           break;
         }
-      }
-      if (safe) {
-        count++;
       }
     }
     console.log(count);
     process.exit(0);
   });
 }
+
+part2();
