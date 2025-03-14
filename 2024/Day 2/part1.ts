@@ -7,7 +7,7 @@
 
 import { isSafe } from './tools';
 
-{
+function part1(): void {
   const readLine = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -34,3 +34,5 @@ import { isSafe } from './tools';
     process.exit(0);
   });
 }
+
+part1();
