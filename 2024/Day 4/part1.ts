@@ -32,47 +32,69 @@ function part1(): void {
         if (characters[i][j] === 'X') {
           if (
             j + 3 < characters[i].length &&
-            characters[i][j + 1] + characters[i][j + 2] + characters[i][j + 3] === 'MAS'
+            characters[i][j + 1] === 'M' &&
+            characters[i][j + 2] === 'A' &&
+            characters[i][j + 3] === 'S'
           ) {
             appearances++;
           }
-          if (j - 3 >= 0 && characters[i][j - 1] + characters[i][j - 2] + characters[i][j - 3] === 'MAS') {
+          if (
+            j - 3 >= 0 &&
+            characters[i][j - 1] === 'M' &&
+            characters[i][j - 2] === 'A' &&
+            characters[i][j - 3] === 'S'
+          ) {
             appearances++;
           }
           if (
             i + 3 < characters.length &&
-            characters[i + 1][j] + characters[i + 2][j] + characters[i + 3][j] === 'MAS'
+            characters[i + 1][j] === 'M' &&
+            characters[i + 2][j] === 'A' &&
+            characters[i + 3][j] === 'S'
           ) {
             appearances++;
           }
-          if (i - 3 >= 0 && characters[i - 1][j] + characters[i - 2][j] + characters[i - 3][j] === 'MAS') {
+          if (
+            i - 3 >= 0 &&
+            characters[i - 1][j] === 'M' &&
+            characters[i - 2][j] === 'A' &&
+            characters[i - 3][j] === 'S'
+          ) {
             appearances++;
           }
           if (
             i + 3 < characters.length &&
             j + 3 < characters[i].length &&
-            characters[i + 1][j + 1] + characters[i + 2][j + 2] + characters[i + 3][j + 3] === 'MAS'
+            characters[i + 1][j + 1] === 'M' &&
+            characters[i + 2][j + 2] === 'A' &&
+            characters[i + 3][j + 3] === 'S'
           ) {
             appearances++;
           }
           if (
             i - 3 >= 0 &&
             j - 3 >= 0 &&
-            characters[i - 1][j - 1] + characters[i - 2][j - 2] + characters[i - 3][j - 3] === 'MAS'
+            characters[i - 1][j - 1] === 'M' &&
+            characters[i - 2][j - 2] === 'A' &&
+            characters[i - 3][j - 3] === 'S'
           ) {
             appearances++;
           }
           if (
             i + 3 < characters.length &&
             j - 3 >= 0 &&
-            characters[i + 1][j - 1] + characters[i + 2][j - 2] + characters[i + 3][j - 3] === 'MAS'
+            characters[i + 1][j - 1] === 'M' &&
+            characters[i + 2][j - 2] === 'A' &&
+            characters[i + 3][j - 3] === 'S'
           ) {
             appearances++;
           }
           if (
             i - 3 >= 0 &&
             j + 3 < characters[i].length &&
-            characters[i - 1][j + 1] + characters[i - 2][j + 2] + characters[i - 3][j + 3] === 'MAS'
+            characters[i - 1][j + 1] === 'M' &&
+            characters[i - 2][j + 2] === 'A' &&
+            characters[i - 3][j + 3] === 'S'
           ) {
             appearances++;
           }
