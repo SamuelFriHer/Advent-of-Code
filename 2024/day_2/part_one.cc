@@ -43,7 +43,6 @@ bool hasValidDifferences(const std::vector<int>& numbers) {
 }
 
 int main() {
-  std::ifstream inputFile("input.txt");
   std::ifstream input("input.txt");
   if (!input.is_open()) {
     std::cerr << "Error: Could not open input file." << std::endl;
