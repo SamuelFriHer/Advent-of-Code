@@ -49,13 +49,13 @@ bool hasValidDifferences(const std::vector<int>& numbers) {
  */
 bool isValidWithOneRemoval(const std::vector<int>& numbers) {
   for (size_t i = 0; i < numbers.size(); ++i) {
-    std::vector<int> modifiedNumbers;
+    std::vector<int> modified_numbers;
     for (size_t j = 0; j < numbers.size(); ++j) {
       if (j != i) {
-        modifiedNumbers.push_back(numbers[j]);
+        modified_numbers.push_back(numbers[j]);
       }
     }
-    if (isOrdered(modifiedNumbers) && hasValidDifferences(modifiedNumbers)) {
+    if (isOrdered(modified_numbers) && hasValidDifferences(modified_numbers)) {
       return true;
     }
   }
@@ -63,7 +63,6 @@ bool isValidWithOneRemoval(const std::vector<int>& numbers) {
 }
 
 int main() {
-  std::ifstream inputFile("input.txt");
   std::ifstream input("input.txt");
   if (!input.is_open()) {
     std::cerr << "Error: Could not open input file." << std::endl;
