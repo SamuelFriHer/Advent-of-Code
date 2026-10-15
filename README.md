@@ -1,5 +1,5 @@
-# 🎄 Advent of Code - Mis Soluciones en C++
+# Advent of Code - Solutions in Python
 
-¡Bienvenido! Este repositorio contiene mis soluciones personales a los desafíos diarios de [Advent of Code](https://adventofcode.com/) (AoC), un calendario de adviento anual de pequeños rompecabezas de programación.
+This repository contains personal solutions to the daily challenges from [Advent of Code](https://adventofcode.com/) (AoC), an annual Advent calendar of programming puzzles.
 
-El objetivo principal de este repositorio es documentar mi progreso, practicar la resolución de problemas y mejorar mis habilidades en C++ (y divertirme en el proceso).
+The primary goals of this repository are to track progress, practice problem-solving, and write clean, idiomatic Python solutions.
